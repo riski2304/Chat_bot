@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/Chat_bot/", // <--- TAMBAHKAN BARIS INI
+  base: "/Chat_bot/",
   server: {
     host: "::",
     port: 8080,
