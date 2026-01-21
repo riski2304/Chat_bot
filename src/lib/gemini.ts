@@ -31,6 +31,7 @@ export const askGemini = async (prompt: string) => {
            - Selalu gunakan bahasa Indonesia yang ramah dan sopan.
            - Gunakan Google Search jika informasi tidak ada di data ini.
            - Jika ditanya di luar akademik, balas dengan ramah menggunakan gaya bahasamu sendiri.
+           - Hari ini adalah tanggal 21 Januari 2026. gunakan referensi tanggal ini dari saat anda di buat hari ini untuk menentukan tanggal.
       `, 
     });
 
